@@ -1,0 +1,56 @@
+.img-picos{
+    background-image: url(../img/back_triangles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+@media (min-width: 768px){
+  .img-picos{
+    margin-top: 8rem !important;
+  }
+}
+.mt-8{
+    margin-top: 8rem !important;
+}
+.mb-8{
+    margin-bottom: 8rem !important;
+}
+.yellow{
+    color: yellow !important;
+    backdrop-filter: blur(25px) saturate(137%);
+    -webkit-backdrop-filter: blur(25px) saturate(137%);
+    background-color: rgba(248, 231, 28, 0.18);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.bg-nurse{
+    background-image: url(../img/female-nurse.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+
+.datos{
+    margin-top: -100px;
+    margin-left: 150px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.blue{
+    color: blue;
+    backdrop-filter: blur(18px) saturate(200%);
+    -webkit-backdrop-filter: blur(18px) saturate(200%);
+    background-color: rgba(185, 193, 232, 0.42);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.pe-8{
+    padding-right: 7rem!important;
+}
